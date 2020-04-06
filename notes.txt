@@ -1,0 +1,34 @@
+JSON.parse()  //  transform JSON into a Javacript Obj
+JSON.stringify() // tranfrom Js obj into JSON
+
+
+fetch() // API to make web request and handle responses than with the older XMLHttpRequest.
+to get JSON -> response.json() that return a promise that retur the JSON 
+
+String.prototype.match() //obtener todas las ocurrencias de una expresión regular 
+
+***************************************************************************************
+The match() method retrieves the result of matching a string against a regular expression.
+
+The RegExp object is used for matching text with a pattern.
+
+new RegExp(/ab+c/, 'i') // literal notation
+new RegExp('ab+c', 'i') // constructor
+
+g modifier: global. All matches (don't return on first match)
+
+i modifier: insensitive. Case insensitive match (ignores case of [a-zA-Z])
+
+match recibe como parametro una expresión regular que devuelve RegExp
+
+***********************************
+const elements = ['Fire', 'Air', 'Water'];
+
+console.log(elements.join());
+// expected output: "Fire,Air,Water"
+
+console.log(elements.join(''));
+// expected output: "FireAirWater"
+
+console.log(elements.join('-'));
+// expected output: "Fire-Air-Water"
